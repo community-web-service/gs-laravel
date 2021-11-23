@@ -1,0 +1,34 @@
+{
+	"name":"gs-laravel",
+	"version":"0.0.1",
+	"description":"Gulp Swallower plugin for Laravel.",
+	"homepage":"https://github.com/community-web-service/gs-laravel",
+	"author":{
+		"name":"Robert Gaines",
+		"email":"rob@communitywebservice.com",
+		"url":"https://www.communitywebservice.com"
+	},
+	"license":"Apache-2.0",
+	"repository":{
+		"type":"git",
+		"url":"https://github.com/community-web-service/gs-laravel"
+	},
+	"bugs":{
+		"email":"rob@communitywebservice.com",
+		"url":"https://github.com/community-web-service/gs-laravel/issues"
+	},
+	"directories":{
+		"doc":"./doc/md/"
+	},
+	"main":"index.js",
+	"dependencies": {
+		"del": "^5.1.0",
+		"gulp": "^4.0.2",
+		"gulp-exclude-gitignore": "^1.2.0",
+		"gulp-multi-dest": "^1.3.7"
+	},
+	"scripts":{
+		"test":"echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords":[]
+}
